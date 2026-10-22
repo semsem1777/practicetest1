@@ -8,6 +8,40 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
+<style>
+    body {
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /* Everything is weight 400, including headings */
+    h1, h2, h3, p {
+        font-weight: 400;
+    }
+
+    /* Nouns in the header and footer */
+    .noun {
+        font-weight: 600;
+    }
+
+    header {
+        background-color: blue
+        color: white;
+        padding: 20px;
+    }
+
+    footer {
+        background-color: green;
+        color: white;
+        padding: 20px;
+    }
+
+    main {
+        background-color: f1e4c3; /* parchment */
+        color: black;
+        padding: 20px;
+    }
+</style>
         
 </head>
 
